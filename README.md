@@ -3,7 +3,6 @@ Luxembourg SUMO Traffic (LuST) Scenario
 
 Author: Lara CODECA [lara.codeca@uni.lu]
 
-========================================================================================
 The MIT License (MIT)
 
 Copyright (c) 2015 Lara CODECA [lara.codeca@uni.lu], VehicularLab [vehicular-lab@uni.lu]
@@ -25,9 +24,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-========================================================================================
 
 
+#How To Use:
 LuST Scenario can be used as any other standard SUMO (SUMO version 0.22) scenario.
 The conf_complete_LuSTScenario.sumo.cfg file contains all the configuration information and can be used with sumo -c conf_complete_LuSTScenario.sumo.cfg.
 
