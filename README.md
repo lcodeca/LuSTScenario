@@ -27,7 +27,7 @@ SOFTWARE.
 
 
 #How To Use:
-LuST Scenario can be used as any other standard SUMO (SUMO version 0.22) scenario.
+LuST Scenario can be used as any other standard SUMO (SUMO version 0.23.0) scenario.
 The conf_complete_LuSTScenario.sumo.cfg file contains all the configuration information and can be used with sumo -c conf_complete_LuSTScenario.sumo.cfg.
 
 Concerning the files:
