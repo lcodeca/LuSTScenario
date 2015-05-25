@@ -27,14 +27,14 @@ SOFTWARE.
 
 
 #How To Use:
-LuST Scenario can be used as any other standard SUMO (SUMO version 0.23.0) scenario.
-The conf_complete_LuSTScenario.sumo.cfg file contains all the configuration information and can be used with sumo -c conf_complete_LuSTScenario.sumo.cfg.
+LuST Scenario can be used as any other standard SUMO scenario and it can be launched with `sumo -c LuSTScenario.internal.mobility.sumo.cfg`.
 
-Concerning the files:
-- LuSTScenario.net.xml is the SUMO net file.
-- LuSTScenario.vehOnly.rou.xml contains the routes for the vehicles (no buses).
-- LuSTScenario.duarouter.busLines.rou.xml contains the routes for the buses.
-- vtypes.add.xml contains the vehicles definition.
-- LuSTScenario.busStops.xml contains the bus stops definition.
-- LuSTScenario.indLoops.xml contains the inductive loops definition.
-- LuSTScenario.poly.xml contains the polygons definition (buildings and parking lots).
+# 24h of Snapshots for the LuST Scenario v1.1 
+[![24h of Snapshots of the LuST Scenario](http://img.youtube.com/vi/JzHCuXCRVcw/0.jpg)](http://www.youtube.com/watch?v=JzHCuXCRVcw)
+
+#Detailed info: 
+* [Description](https://github.com/lcodeca/LuSTScenario/wiki/Home)
+* [Changelog](https://github.com/lcodeca/LuSTScenario/wiki/Changelog)
+* [LuST Scenario in Numbers](https://github.com/lcodeca/LuSTScenario/wiki/Luxembourg-SUMO-Traffic-(LuST)-Scenario)
+
+
