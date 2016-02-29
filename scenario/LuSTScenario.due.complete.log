@@ -1,0 +1,19 @@
+Loading net-file from 'LuSTScenario.net.xml'...  done (1118ms).
+Loading additional-files from 'LuSTScenario.vtypes.add.xml'...  done (3ms).
+Loading additional-files from 'LuSTScenario.busStops.xml'...  done (5ms).
+Loading additional-files from 'LuSTScenario.indLoops.xml'...  done (44ms).
+Loading additional-files from 'LuSTScenario.poly.xml'...  done (387ms).
+Loading done.
+Simulation started with time: 0.00
+[..]
+Simulation ended at time: 87544.00
+Reason: All vehicles have left the simulation.
+Performance:
+ Duration: 1607357ms
+ Real time factor: 54.4646
+ UPS: 104076.376312
+Vehicles:
+ Inserted: 284889 (Loaded: 288250)
+ Running: 0
+ Waiting: 0
+Teleports: 751 (Collisions: 495, Jam: 98, Yield: 66, Wrong Lane: 92)

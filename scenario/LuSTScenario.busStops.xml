@@ -1,12 +1,12 @@
 <!--
 Luxembourg SUMO Traffic (LuST) Scenario
 
-Author: Lara CODECA [lara.codeca@uni.lu]
+Author: Lara CODECA [codeca@gmail.com]
 
-========================================================================================
+================================================================================
 The MIT License (MIT)
 
-Copyright (c) 2015 Lara CODECA [lara.codeca@uni.lu], VehicularLab [vehicular-lab@uni.lu]
+Copyright (c) 2016 Lara CODECA [codeca@gmail.com], VehicularLab [vehicular-lab@uni.lu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-========================================================================================
+================================================================================
 -->
 
 <add>
@@ -168,8 +168,6 @@ SOFTWARE.
 	<busStop id="247" lane="-30628#2_0" startPos="44.2878257591" endPos="54.2878257591" line=" AVL---_5 AVL---_6" />
 	<busStop id="248" lane="-30892#25_0" startPos="235.901432924" endPos="245.901432924" line=" AVL---_18 AVL---_21 AVL---_24" />
 	<busStop id="249" lane="--30892#25_0" startPos="95.8514587084" endPos="105.851458708" line=" AVL---_18 AVL---_21 AVL---_24" />
-	<busStop id="250" lane="-32340#6_0" startPos="35.3196520931" endPos="45.3196520931" line=" AVL---_1 AVL---_12 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
-	<busStop id="251" lane="--32340#6_0" startPos="42.0832810313" endPos="52.0832810313" line=" AVL---_1 AVL---_12 AVL---_18 AVL---_25 AVL---_7 AVL---_CN_4" />
 	<busStop id="252" lane="--31496#1_0" startPos="370.252466786" endPos="380.252466786" line=" AVL---_6" />
 	<busStop id="253" lane="-31496#1_0" startPos="106.254479177" endPos="116.254479177" line=" AVL---_6" />
 	<busStop id="254" lane="--30856#1_0" startPos="358.687523412" endPos="368.687523412" line=" AVL---_CN_1" />

@@ -1,0 +1,23 @@
+Loading net-file from 'LuSTScenario.net.xml'...  done (1147ms).
+Loading additional-files from 'LuSTScenario.vtypes.add.xml'...  done (1ms).
+Loading additional-files from 'LuSTScenario.busStops.xml'...  done (5ms).
+Loading additional-files from 'LuSTScenario.indLoops.xml'...  done (42ms).
+Loading additional-files from 'LuSTScenario.poly.xml'...  done (412ms).
+Loading done.
+Simulation started with time: 0.00
+[..]
+Simulation ended at time: 87808.00
+Reason: All vehicles have left the simulation.
+Performance:
+ Duration: 2705966ms
+ Real time factor: 32.4498
+ UPS: 73721.747797
+Vehicles:
+ Inserted: 286651 (Loaded: 288250)
+ Running: 0
+ Waiting: 0
+Teleports: 541 (Collisions: 380, Jam: 105, Yield: 20, Wrong Lane: 36)
+Emergency Stops: 20
+
+DijkstraRouterTT answered 654896 queries and explored 1790.81 edges on average.
+DijkstraRouterTT spent 416017ms answering queries (0.64ms on average).

@@ -1,11 +1,11 @@
 # LuSTScenario
 Luxembourg SUMO Traffic (LuST) Scenario
 
-Author: Lara CODECA [lara.codeca@uni.lu]
+Author: Lara CODECA [codeca@gmail.com]
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Lara CODECA [lara.codeca@uni.lu], VehicularLab [vehicular-lab@uni.lu]
+Copyright (c) 2016 Lara CODECA [codeca@gmail.com], VehicularLab [vehicular-lab@uni.lu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,14 +27,9 @@ SOFTWARE.
 
 
 #How To Use:
-LuST Scenario can be used as any other standard SUMO scenario and it can be launched with `sumo -c LuSTScenario.internal.mobility.sumo.cfg`.
+LuST Scenario can be used as any other standard SUMO scenario and it can be launched with `sumo -c LuSTScenario.due.complete.mobility.sumo.cfg`.
 
-# 24h of Snapshots for the LuST Scenario v1.1 
-[![24h of Snapshots of the LuST Scenario](http://img.youtube.com/vi/JzHCuXCRVcw/0.jpg)](http://www.youtube.com/watch?v=JzHCuXCRVcw)
-
-#Detailed info: 
+#Detailed info:
 * [Description](https://github.com/lcodeca/LuSTScenario/wiki/Home)
 * [Changelog](https://github.com/lcodeca/LuSTScenario/wiki/Changelog)
 * [LuST Scenario in Numbers](https://github.com/lcodeca/LuSTScenario/wiki/Luxembourg-SUMO-Traffic-(LuST)-Scenario)
-
-
