@@ -8,7 +8,7 @@ This project is licensed under the terms of the MIT license.
 
 Lara CODECA, Raphael FRANK, Thomas ENGEL. December 2015. *Luxembourg SUMO Traffic (LuST) Scenario: 24 Hours of Mobility for Vehicular Networking Research* in Proceedings of the 7th IEEE Vehicular Networking Conference (VNC15).
 
-[Get BibTeX](https://github.com/lcodeca/LuSTScenario/BibTeX.bib)
+[Get BibTeX](https://github.com/lcodeca/LuSTScenario/blob/master/BibTeX.bib)
 
 #### How To:
 LuST Scenario can be lunched directly with four configuration files.

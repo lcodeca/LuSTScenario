@@ -19,6 +19,6 @@ The community needs a scenario with the following requirements:
 
 Lara CODECA, Raphael FRANK, Thomas ENGEL. December 2015. *"Luxembourg SUMO Traffic (LuST) Scenario: 24 Hours of Mobility for Vehicular Networking Research."* in Proceedings of the 7th IEEE Vehicular Networking Conference (VNC15).
 
-[Get BibTeX](https://github.com/lcodeca/LuSTScenario/BibTeX.bib)
+[Get BibTeX](https://github.com/lcodeca/LuSTScenario/blob/master/BibTeX.bib)
 
 A detailed evaluation and valiadation is submitted to a peer-reviewd journal is going to be disclosed as soon as it's published.  
