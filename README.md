@@ -1,35 +1,22 @@
-# LuSTScenario
-Luxembourg SUMO Traffic (LuST) Scenario
+## Luxembourg SUMO Traffic (LuST) Scenario
 
-Author: Lara CODECA [codeca@gmail.com]
+Contacts: Lara CODECA [codeca@gmail.com], VehicularLab [vehicular-lab@uni.lu]
 
-The MIT License (MIT)
+This project is licensed under the terms of the MIT license.
 
-Copyright (c) 2016 Lara CODECA [codeca@gmail.com], VehicularLab [vehicular-lab@uni.lu]
+#### Publication:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Lara CODECA, Raphael FRANK, Thomas ENGEL. December 2015. *Luxembourg SUMO Traffic (LuST) Scenario: 24 Hours of Mobility for Vehicular Networking Research* in Proceedings of the 7th IEEE Vehicular Networking Conference (VNC15).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+[Get BibTeX](https://github.com/lcodeca/LuSTScenario/BibTeX.bib)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+#### How To:
+LuST Scenario can be lunched directly with four configuration files.
+* Mobility: shortest path with rerouting.
+  * `sumo -c LuSTScenario.dua.complete.mobility.static.sumocfg` with static traffic lights.
+  * `sumo -c LuSTScenario.dua.complete.mobility.actuated.sumocfg` with actuated traffic lights.
+* Mobility: Dynamic user equilibrium.
+  * `sumo -c LuSTScenario.due.complete.mobility.static.sumocfg` with static traffic lights.
+  * `sumo -c LuSTScenario.due.complete.mobility.actuated.sumocfg` with actuated traffic lights.
 
-
-#How To Use:
-LuST Scenario can be used as any other standard SUMO scenario and it can be launched with `sumo -c LuSTScenario.due.complete.mobility.sumo.cfg`.
-
-#Detailed info:
-* [Description](https://github.com/lcodeca/LuSTScenario/wiki/Home)
-* [Changelog](https://github.com/lcodeca/LuSTScenario/wiki/Changelog)
-* [LuST Scenario in Numbers](https://github.com/lcodeca/LuSTScenario/wiki/Luxembourg-SUMO-Traffic-(LuST)-Scenario)
+*A special thanks to Matěj Kubička [matej@matejk.cz] for his contribution to the network topology.*
