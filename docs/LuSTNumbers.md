@@ -1,5 +1,5 @@
 ### LuST Scenario Topology
-![LuST Topology](https://github.com/lcodeca/LuSTScenario/blob/master/img/LuST_Polygons.png)
+![LuST Topology](https://github.com/lcodeca/LuSTScenario/blob/master/docs/img/LuST_Polygons.png)
 
 ### LuST Scenario in Numbers
 #### Topology
@@ -41,7 +41,7 @@
 
 #### Bus Routes
 The edges in red represent the area covered by the bus routes.
-![Coverage of the bus routes](https://github.com/lcodeca/LuSTScenario/blob/master/img/LuST_busCoverage.png)
+![Coverage of the bus routes](https://github.com/lcodeca/LuSTScenario/blob/master/docs/img/LuST_busCoverage.png)
 
 | | LuSTScenario.busStops.xml and LuSTScenario.busLines.rou.xml |
 | --- | --- |
@@ -50,4 +50,4 @@ The edges in red represent the area covered by the bus routes.
 | Buses per day | 2,240 |
 
 ### Traffic Demands Over 24 Hours
-![Traffic demand over a day](https://github.com/lcodeca/LuSTScenario/blob/master/img/TrafficDemands.png)
+![Traffic demand over a day](https://github.com/lcodeca/LuSTScenario/blob/master/docs/img/TrafficDemands.png)
