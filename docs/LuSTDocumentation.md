@@ -21,4 +21,8 @@ Lara CODECA, Raphael FRANK, Thomas ENGEL. December 2015. *"Luxembourg SUMO Traff
 
 [Get BibTeX](https://github.com/lcodeca/LuSTScenario/blob/master/BibTeX.bib)
 
-A detailed evaluation and valiadation is submitted to a peer-reviewd journal is going to be disclosed as soon as it's published.  
+### Documentation:
+
+A detailed evaluation and valiadation is submitted to a peer-reviewd journal is going to be disclosed as soon as it is published.  
+
+In the meanwhile: [LuST Scenario in Numbers](https://github.com/lcodeca/LuSTScenario/blob/master/docs/LuSTNumbers.md)
