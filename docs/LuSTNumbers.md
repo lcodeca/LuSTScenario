@@ -49,5 +49,5 @@ The edges in red represent the area covered by the bus routes.
 | Bus stops | 561 |
 | Buses per day | 2,240 |
 
-### Traffic Demands Over 24 Hours
+### Traffic Demands
 ![Traffic demand over a day](https://github.com/lcodeca/LuSTScenario/blob/master/docs/img/TrafficDemands.png)
