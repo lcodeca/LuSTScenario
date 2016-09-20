@@ -10,79 +10,79 @@ LuST Scenario can be lunched directly with four configuration files.
 ### Simulations summary
 
 ```
-SUMO Version 0.26.0
- Build features: x86_64-apple-darwin15.4.0 InternalLanes DoublePrecision TRACI PROJ GDAL GUI Python
+SUMO Version 0.27.0
+ Build features: x86_64-apple-darwin15.5.0 InternalLanes DoublePrecision TRACI PROJ GDAL GUI Python
  Copyright (C) 2001-2016 DLR and contributors; http://sumo.dlr.de
+ License GPLv3+: GNU GPL Version 3 or later <http://gnu.org/licenses/gpl.html>
+ Use --help to get the list of options.
 ```
 
 ##### sumo -c LuSTScenario.dua.complete.mobility.static.sumocfg
 ```
-Simulation ended at time: 87475.00
+Simulation ended at time: 88073.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 2464790ms
- Real time factor: 35.4898
- UPS: 80800.560291
+ Duration: 2803119ms
+ Real time factor: 31.4196
+ UPS: 68748.496229
 Vehicles:
- Inserted: 286990 (Loaded: 288250)
+ Inserted: 287015 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 1706 (Collisions: 179, Jam: 877, Yield: 373, Wrong Lane: 277)
-Emergency Stops: 1170
+Teleports: 73 (Collisions: 12, Jam: 47, Wrong Lane: 14)
+Emergency Stops: 3
 
-DijkstraRouterTT answered 621923 queries and explored 1757.04 edges on average.
-DijkstraRouterTT spent 335328ms answering queries (0.54ms on average).
+DijkstraRouterTT answered 634608 queries and explored 1632.82 edges on average.
+DijkstraRouterTT spent 344611ms answering queries (0.54ms on average).
 ```
 
 ##### sumo -c LuSTScenario.dua.complete.mobility.actuated.sumocfg
 ```
-Simulation ended at time: 87356.00
+Simulation ended at time: 87647.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 2049967ms
- Real time factor: 42.6134
- UPS: 76293.166670
+ Duration: 2472924ms
+ Real time factor: 35.4427
+ UPS: 68029.329247
 Vehicles:
- Inserted: 287190 (Loaded: 288250)
+ Inserted: 287239 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 148 (Collisions: 117, Jam: 20, Wrong Lane: 11)
-Emergency Stops: 577
+Teleports: 37 (Collisions: 8, Jam: 24, Yield: 1, Wrong Lane: 4)
+Emergency Stops: 2
 
-DijkstraRouterTT answered 544744 queries and explored 1799.94 edges on average.
-DijkstraRouterTT spent 279218ms answering queries (0.51ms on average).
+DijkstraRouterTT answered 571809 queries and explored 1637.87 edges on average.
+DijkstraRouterTT spent 316620ms answering queries (0.55ms on average).
 ```
 
 ##### sumo -c LuSTScenario.due.complete.mobility.static.sumocfg
 ```
-Simulation ended at time: 87438.00
+Simulation ended at time: 88746.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 1492003ms
- Real time factor: 58.6044
- UPS: 103749.562836
+ Duration: 2102590ms
+ Real time factor: 42.2079
+ UPS: 91152.355904
 Vehicles:
- Inserted: 285852 (Loaded: 288250)
+ Inserted: 284208 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 181 (Collisions: 118, Jam: 21, Yield: 15, Wrong Lane: 27)
-Emergency Stops: 672
+Teleports: 169 (Collisions: 26, Jam: 49, Yield: 36, Wrong Lane: 58)
 ```
 
 ##### sumo -c LuSTScenario.due.complete.mobility.actuated.sumocfg
 ```
-Simulation ended at time: 87237.00
+Simulation ended at time: 87557.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 1722387ms
- Real time factor: 50.6489
- UPS: 81932.401371
+ Duration: 1966648ms
+ Real time factor: 44.5209
+ UPS: 95726.369437
 Vehicles:
- Inserted: 287050 (Loaded: 288250)
+ Inserted: 286007 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 111 (Collisions: 66, Jam: 8, Yield: 7, Wrong Lane: 30)
-Emergency Stops: 409
+Teleports: 468 (Collisions: 14, Jam: 246, Yield: 165, Wrong Lane: 43)
 ```
 ## LuST Scenario Files
 #### Configuration files:

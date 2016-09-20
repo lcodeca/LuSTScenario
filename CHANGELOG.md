@@ -1,8 +1,8 @@
 ## LuST Scenario v2.0
-The scenario has been tested with **SUMO 0.26.0**
+The scenario has been tested with **SUMO 0.27.0**
 
 #### Network:
-* fixed various intersections and eges.
+* fixed various intersections and lowered the speed on some eges.
 * changed the TLS to actuaded in the main net file.
 * added an additional file with the static TLS.
 
@@ -11,6 +11,12 @@ The scenario has been tested with **SUMO 0.26.0**
   * shortest path (same for both static and actuated TLS)
   * dynamic user equilibrium for static TLS
   * dynamic user equilibrium for actuated TLS
+
+#### Documentation:
+* Wiki removed
+* Documentation included in the release.
+
+***
 
 ## LuST Scenario v1.1
 The scenario has been tested with **SUMO 0.23.0**
