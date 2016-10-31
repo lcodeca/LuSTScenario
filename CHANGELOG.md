@@ -5,7 +5,7 @@ The scenario has been tested with **SUMO 0.27**
 * Fixed various intersections.
 * Lowered the speed on some edges.
 * Joined together the continuous edges that shared all the attributes .
-* Changed the TLS to actuaded in the main net file.
+* Changed the TLS to actuated in the main net file.
 * Added an additional file with the static TLS.
 
 #### Polygons:
@@ -18,7 +18,7 @@ The scenario has been tested with **SUMO 0.27**
   * dynamic user equilibrium for actuated TLS.
 
 #### Documentation:
-* Files name chenged to improve readability.
+* Files name changed to improve readability.
 * Wiki removed.
 * Documentation included in the release.
 
