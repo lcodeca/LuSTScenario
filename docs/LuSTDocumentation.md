@@ -7,13 +7,13 @@ The community needs a scenario with the following requirements:
 * Is should describe a realistic traffic scenario over one day (i.e. avoid gridlocks and teleportations).
 
 ### Use Cases
-*..everything that you can relate with vehicular mobility.*
 * Evaluation of different multi-modal strategies for commuters
 * Testing protocols and applications on different scales
 * On-board routing system to provide scenarios with different levels of congestion to test different re-routing algorithms.
 * Test optimisation algorithms for
   * main arterial road (e.g. green waves)
   * emergency protocols (e.g. allow emergency vehicles to be prioritised)
+*.. and more ..*
 
 ### Publication:
 

@@ -1,19 +1,25 @@
 ## LuST Scenario v2.0
-The scenario has been tested with **SUMO 0.27.0**
+The scenario has been tested with **SUMO 0.27**
 
 #### Network:
-* fixed various intersections and lowered the speed on some eges.
-* changed the TLS to actuaded in the main net file.
-* added an additional file with the static TLS.
+* Fixed various intersections.
+* Lowered the speed on some edges.
+* Joined together the continuous edges that shared all the attributes .
+* Changed the TLS to actuaded in the main net file.
+* Added an additional file with the static TLS.
+
+#### Polygons:
+* Fixed the position of various polygons.
 
 #### Traffic demand:
-* mobility over 24 hours
-  * shortest path (same for both static and actuated TLS)
-  * dynamic user equilibrium for static TLS
-  * dynamic user equilibrium for actuated TLS
+* Mobility over 24 hours:
+  * shortest path (same for both static and actuated TLS);
+  * dynamic user equilibrium for static TLS;
+  * dynamic user equilibrium for actuated TLS.
 
 #### Documentation:
-* Wiki removed
+* Files name chenged to improve readability.
+* Wiki removed.
 * Documentation included in the release.
 
 ***

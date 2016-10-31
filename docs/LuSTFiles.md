@@ -1,11 +1,11 @@
 ## How To:
 LuST Scenario can be lunched directly with four configuration files.
 * Mobility: shortest path with rerouting.
-  * `sumo -c LuSTScenario.dua.complete.mobility.static.sumocfg` with static traffic lights.
-  * `sumo -c LuSTScenario.dua.complete.mobility.actuated.sumocfg` with actuated traffic lights.
+  * `sumo -c dua.static.sumocfg` with static traffic lights.
+  * `sumo -c dua.actuated.sumocfg` with actuated traffic lights.
 * Mobility: Dynamic user equilibrium.
-  * `sumo -c LuSTScenario.due.complete.mobility.static.sumocfg` with static traffic lights.
-  * `sumo -c LuSTScenario.due.complete.mobility.actuated.sumocfg` with actuated traffic lights.
+  * `sumo -c due.static.sumocfg` with static traffic lights.
+  * `sumo -c due.actuated.sumocfg` with actuated traffic lights.
 
 ### Simulations summary
 
@@ -17,97 +17,100 @@ SUMO Version 0.27.0
  Use --help to get the list of options.
 ```
 
-##### sumo -c LuSTScenario.dua.complete.mobility.static.sumocfg
+##### sumo -c dua.static.sumocfg
 ```
-Simulation ended at time: 88073.00
+Simulation ended at time: 88161.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 2803119ms
- Real time factor: 31.4196
- UPS: 68748.496229
+ Duration: 3219155ms
+ Real time factor: 27.3864
+ UPS: 60050.936969
 Vehicles:
- Inserted: 287015 (Loaded: 288250)
+ Inserted: 287034 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 73 (Collisions: 12, Jam: 47, Wrong Lane: 14)
-Emergency Stops: 3
-
-DijkstraRouterTT answered 634608 queries and explored 1632.82 edges on average.
-DijkstraRouterTT spent 344611ms answering queries (0.54ms on average).
-```
-
-##### sumo -c LuSTScenario.dua.complete.mobility.actuated.sumocfg
-```
-Simulation ended at time: 87647.00
-Reason: All vehicles have left the simulation.
-Performance:
- Duration: 2472924ms
- Real time factor: 35.4427
- UPS: 68029.329247
-Vehicles:
- Inserted: 287239 (Loaded: 288250)
- Running: 0
- Waiting: 0
-Teleports: 37 (Collisions: 8, Jam: 24, Yield: 1, Wrong Lane: 4)
+Teleports: 55 (Collisions: 12, Jam: 25, Yield: 5, Wrong Lane: 13)
 Emergency Stops: 2
 
-DijkstraRouterTT answered 571809 queries and explored 1637.87 edges on average.
-DijkstraRouterTT spent 316620ms answering queries (0.55ms on average).
+DijkstraRouterTT answered 533322 queries and explored 1862.17 edges on average.
+DijkstraRouterTT spent 422135ms answering queries (0.79ms on average).
 ```
 
-##### sumo -c LuSTScenario.due.complete.mobility.static.sumocfg
+##### sumo -c dua.actuated.sumocfg
 ```
-Simulation ended at time: 88746.00
+Simulation ended at time: 87939.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 2102590ms
- Real time factor: 42.2079
- UPS: 91152.355904
+ Duration: 3227580ms
+ Real time factor: 27.2461
+ UPS: 60118.433006
 Vehicles:
- Inserted: 284208 (Loaded: 288250)
+ Inserted: 286987 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 169 (Collisions: 26, Jam: 49, Yield: 36, Wrong Lane: 58)
+Teleports: 24 (Collisions: 15, Yield: 1, Wrong Lane: 8)
+Emergency Stops: 3
+
+DijkstraRouterTT answered 540635 queries and explored 1861.34 edges on average.
+DijkstraRouterTT spent 427299ms answering queries (0.79ms on average).
 ```
 
-##### sumo -c LuSTScenario.due.complete.mobility.actuated.sumocfg
+##### sumo -c due.static.sumocfg
 ```
-Simulation ended at time: 87557.00
+Simulation ended at time: 88226.00
 Reason: All vehicles have left the simulation.
 Performance:
- Duration: 1966648ms
- Real time factor: 44.5209
- UPS: 95726.369437
+ Duration: 2288601ms
+ Real time factor: 38.5502
+ UPS: 86078.456227
 Vehicles:
- Inserted: 286007 (Loaded: 288250)
+ Inserted: 284184 (Loaded: 288250)
  Running: 0
  Waiting: 0
-Teleports: 468 (Collisions: 14, Jam: 246, Yield: 165, Wrong Lane: 43)
+Teleports: 102 (Collisions: 9, Jam: 37, Yield: 45, Wrong Lane: 11)
 ```
+
+##### sumo -c due.actuated.sumocfg
+```
+Simulation ended at time: 88375.00
+Reason: All vehicles have left the simulation.
+Performance:
+ Duration: 2326824ms
+ Real time factor: 37.981
+ UPS: 87747.148474
+Vehicles:
+ Inserted: 284349 (Loaded: 288250)
+ Running: 0
+ Waiting: 0
+Teleports: 767 (Collisions: 7, Jam: 224, Yield: 378, Wrong Lane: 158)
+```
+
 ## LuST Scenario Files
 #### Configuration files:
-* [LuSTScenario.dua.complete.mobility.actuated.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.dua.complete.mobility.actuated.sumocfg): SUMO configuration file that uses the shortest path traces with rerouting and actuated traffic lights.
-* [LuSTScenario.dua.complete.mobility.static.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.dua.complete.mobility.static.sumocfg): SUMO configuration file that uses the shortest path traces with rerouting and static traffic lights.
-* [LuSTScenario.due.complete.mobility.actuated.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.due.complete.mobility.actuated.sumocfg): SUMO configuration file that uses the dynamic user equilibrium traces with rerouting and actuated traffic lights.
-* [LuSTScenario.due.complete.mobility.static.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.due.complete.mobility.static.sumocfg): SUMO configuration file that uses the dynamic user equilibrium traces with rerouting and static traffic lights.
+* [dua.actuated.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/dua.actuated.sumocfg): SUMO configuration file that uses the shortest path traces with rerouting and actuated traffic lights.
+* [dua.static.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/dua.static.sumocfg): SUMO configuration file that uses the shortest path traces with rerouting and static traffic lights.
+* [due.actuated.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/due.actuated.sumocfg): SUMO configuration file that uses the dynamic user equilibrium traces with rerouting and actuated traffic lights.
+* [due.static.sumocfg](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/due.static.sumocfg): SUMO configuration file that uses the dynamic user equilibrium traces with rerouting and static traffic lights.
 
 #### Network files:
-* [LuSTScenario.net.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.net.xml) is the SUMO net file with actuated traffic lights.
-* [LuSTScenario.tll.static.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.tll.static.xml) is the alternative file with static traffic lights.
+* [lust.net.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/lust.net.xml) is the SUMO net file with actuated traffic lights.
+* [tll.static.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/tll.static.xml) is the alternative file with static traffic lights.
 
 #### Mobility files:
-* [LuSTScenario.busLines.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.busLines.rou.xml) contains the routes for the buses.
-* [LuSTScenario.transit.mobility.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.transit.mobility.rou.xml) contain the routes for the vehicles (no buses) with origin and destination outside to the city.
-* [DUARoutes/LuSTScenario.local.mobility.*.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUARoutes) contain the shortest path routes for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
-* [DUERoutes/LuSTScenario.local.mobility.*.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUERoutes) contain the dynamic user equilibrium routes (with actuated traffic lights) for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
-* [DUERoutes/LuSTScenario.local.mobility.*.static.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUERoutes) contain the dynamic user equilibrium routes (with static traffic lights) for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
+* [buslines.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/buslines.rou.xml) contains the routes for the buses.
+* [transit.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/transit.rou.xml) contain the routes for the vehicles (no buses) with origin and destination outside to the city.
+* [DUARoutes/local.*.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUARoutes) contain the shortest path routes for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
+* [DUERoutes/local.actuated.*.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUERoutes) contain the dynamic user equilibrium routes (with actuated traffic lights) for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
+* [DUERoutes/local.static.*.rou.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/DUERoutes) contain the dynamic user equilibrium routes (with static traffic lights) for the vehicles (no buses) with origin, destination, or both of them, internal to the city.
 
 #### Additional files:
-* [LuSTScenario.vtypes.add.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.vtypes.add.xml) contains the vehicles definition.
-* [LuSTScenario.busStops.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.busStops.xml) contains the bus stops definition.
-* [LuSTScenario.indLoops.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.indLoops.xml) contains the inductive loops definition.
-* [LuSTScenario.poly.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/LuSTScenario.poly.xml) contains the polygons definition (buildings and parking lots).
+* [vtypes.add.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/vtypes.add.xml) contains the vehicles definition.
+* [busstops.add.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/busstops.add.xml) contains the bus stops definition.
+* [e1detectors.add.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/e1detectors.add.xml) contains the inductive loops definition.
+* [lust.poly.xml](https://github.com/lcodeca/LuSTScenario/blob/master/scenario/lust.poly.xml) contains the polygons definition (buildings and parking lots).
 
 #### Miscellanea:
-* [LuSTScenario.osm](https://github.com/lcodeca/LuSTScenario/blob/master/misc/LuSTScenario.osm) contains the OpenStreetMap definition of the network.
-* [LuST.polygons.osm](https://github.com/lcodeca/LuSTScenario/blob/master/misc/LuST.polygons.osm) contains the OpenStreetMap definition of the polygons.
+* [lust.legacy.scenario.osm](https://github.com/lcodeca/LuSTScenario/blob/master/misc/lust.legacy.scenario.osm) contains the definition of the network in OpenStreetMap fromat.
+* [lust.polygons.osm](https://github.com/lcodeca/LuSTScenario/blob/master/misc/lust.polygons.osm) contains the definition of the polygons in OpenStreetMap format.
+
+* [polygonTypes.xml](https://github.com/lcodeca/LuSTScenario/blob/master/misc/polygonTypes.xml) contains the definition of the polygons types for *polyconvert*.
