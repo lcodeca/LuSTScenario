@@ -10,3 +10,7 @@ scenario/*.csv
 scenario/*.summary.xml
 scenario/*.tripinfo.xml
 scenario/e1_*.xml
+
+pedestrian/*
+
+zones/*
