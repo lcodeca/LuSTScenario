@@ -10,8 +10,8 @@ Author: Lara CODECA [codeca@gmail.com]
 
     <input>
         <net-file value="lust.net.xml"/>
-        <route-files value="buslines.rou.xml DUARoutes/local.0.rou.xml DUARoutes/local.1.rou.xml DUARoutes/local.2.rou.xml transit.rou.xml"/>
-        <additional-files value="vtypes.add.xml busstops.add.xml e1detectors.add.xml lust.poly.xml tll.static.xml"/>
+        <route-files value="buslines.rou.xml, DUARoutes/local.0.rou.xml, DUARoutes/local.1.rou.xml, DUARoutes/local.2.rou.xml, transit.rou.xml"/>
+        <additional-files value="vtypes.add.xml, busstops.add.xml, e1detectors.add.xml, lust.poly.xml, tll.static.xml"/>
     </input>
 
     <output>
