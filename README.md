@@ -8,7 +8,9 @@ This project is licensed under the terms of the MIT license.
 _LuST Scenario has been generated with *SUMO version 0.26* and validated with real data._
 _Although it's possible to use it with more recent versions of SUMO, the resulting mobility cannot be considered validated._
 
-#### Publications:
+#### If you need a realistic mobility scenario compatible with the new versions of SUMO, please use [MoST Scenario](https://github.com/lcodeca/MoSTScenario)
+
+### Publications:
 
 L. Codeca, R. Frank, S. Faye and T. Engel,
 *"Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation"*
@@ -22,7 +24,7 @@ Best paper award of VNC 2015 to Lara CODECA, Raphael FRANK, Thomas ENGEL,
 *Luxembourg SUMO Traffic (LuST) Scenario: 24 Hours of Mobility for Vehicular Networking Research*
 in Proceedings of the 7th IEEE Vehicular Networking Conference (VNC15), December 2015.
 
-#### How To:
+### How To:
 LuST Scenario can be lunched directly with four configuration files.
 * Mobility: shortest path with rerouting.
   * `sumo -c dua.static.sumocfg` with static traffic lights.
