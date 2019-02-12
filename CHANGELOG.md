@@ -1,5 +1,5 @@
 ## LuST Scenario v2.0
-The scenario has been tested with **SUMO 0.27**
+The scenario has been tested with **SUMO 0.26**
 
 #### Network:
 * Fixed various intersections.

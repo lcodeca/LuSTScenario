@@ -4,12 +4,16 @@ Contacts: Lara CODECA [codeca@gmail.com], VehicularLab [vehicular-lab@uni.lu]
 
 This project is licensed under the terms of the MIT license.
 
+### Important Note:
+_LuST Scenario has been generated with *SUMO version 0.26* and validated with real data._
+_Although it's possible to use it with more recent versions of SUMO, the resulting mobility cannot be considered validated._
+
 #### Publications:
 
 L. Codeca, R. Frank, S. Faye and T. Engel,
 *"Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation"*
-in IEEE Intelligent Transportation Systems Magazine, vol. 9, no. 2, pp. 52-63, Summer 2017.  
-DOI: 10.1109/MITS.2017.2666585  
+in IEEE Intelligent Transportation Systems Magazine, vol. 9, no. 2, pp. 52-63, Summer 2017.
+DOI: 10.1109/MITS.2017.2666585
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7906642&isnumber=7904753
 
 [Get BibTeX](https://github.com/lcodeca/LuSTScenario/blob/master/BibTeX.bib)
