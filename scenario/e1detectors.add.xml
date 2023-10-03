@@ -4,7 +4,7 @@ This project is licensed under the terms of the MIT license.
 Author: Lara CODECA [codeca@gmail.com]
 -->
 
-<additional>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/additional_file.xsd">
   <e1Detector id="0_E_-30132" lane="--31508#3_0" pos="1360.92" freq="1800" file="e1_end_output.xml"/>
   <e1Detector id="1_B_-30132" lane="--31508#2_0" pos="5" freq="1800" file="e1_begin_output.xml"/>
   <e1Detector id="2_B_-30132" lane="-31508#3_0" pos="5" freq="1800" file="e1_begin_output.xml"/>
